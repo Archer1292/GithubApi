@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.github.api.RepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-09T09:30:53" hostname="DESKTOP-OME40IK" time="0.025">
+  <properties/>
+  <testcase name="repositoryTest" classname="example.github.api.RepositoryTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
