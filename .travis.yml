@@ -5,6 +5,7 @@ install: /bin/true
 
 jdk:
   - oraclejdk8
+  
 
 before_install:
   - gradle wrapper
