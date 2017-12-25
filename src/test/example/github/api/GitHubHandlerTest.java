@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 
 public class GitHubHandlerTest {
     private GitHubHandler handler = new GitHubHandler(System.getenv("GITHUB_TOKEN"));
-
+    @Ignore
     @Test
     public void getTop10StarredRepos() throws Exception {
         Repository[] repos = handler.getTop10StarredRepos();
@@ -20,7 +20,7 @@ public class GitHubHandlerTest {
             assertNotNull(repository.toString());
         }
     }
-
+    @Ignore
     @Test
     public void getTop10CommitedRepositoriesInWeek() throws Exception {
         Repository[] repos = handler.getTop10CommitedRepositoriesInWeek(1);

@@ -14,8 +14,8 @@ import java.util.*;
 
 public class GitHubHandler {
     private String TOKEN;
-    final private String startDate = "2009-08-07";
-    final private String endDate = "2009-08-14";
+    final private String startDate = "2010-09-07";
+    final private String endDate = "2010-09-14";
 
     public GitHubHandler(String token) {TOKEN = token;}
 
